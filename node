@@ -58,5 +58,17 @@ O Event Loop é o coração do Node JS.
 Junto com ele existem o Event Queue e Thread Pool
 Claro existe uma pilha de execução das coisas
 
+O node usa o sistema de módulos para tudo. Ele usa o CommonJS (require/export)
+
+Para rodar um arquivo js no Node basta colocar a palavra chave "node" na frente 
+mais o nome do seu arquivo:
+
+    node stats.js
+
+O módulo OS do node é o módulo para gerenciar informações do sistema operacional como
+uso da memória ram, memória ram livre
+
+
+
 
 
